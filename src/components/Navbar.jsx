@@ -1,14 +1,12 @@
+import jarvislogo from "/src/assets/logo.png";
+
 export default function Navbar(props) {
   return (
     <header>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand " href={props.home}>
-            <img
-              className="nav-logo"
-              src="/src/assets/logo.png"
-              alt="jarvis-logo"
-            />
+            <img className="nav-logo" src={jarvislogo} alt="jarvis-logo" />
           </a>
           <button
             className="navbar-toggler   btn-dark"
