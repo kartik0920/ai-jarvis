@@ -3,7 +3,7 @@ export default function Navbar(props) {
     <header>
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand " href="#">
+          <a className="navbar-brand " href={props.home}>
             AI JARVIS
           </a>
           <button className="navbar-toggler" type="button">
