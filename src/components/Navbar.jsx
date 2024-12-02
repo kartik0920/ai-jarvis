@@ -6,7 +6,7 @@ export default function Navbar(props) {
           <a className="navbar-brand " href={props.home}>
             <img
               className="nav-logo"
-              src="src\assets\logo.png"
+              src="/src/assets/logo.png"
               alt="jarvis-logo"
             />
           </a>
