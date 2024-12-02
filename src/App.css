@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.navBar > ul {
+  list-style: none;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 2rem;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  flex-grow: unset;
+}
+#home {
+  background-color: aqua;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+#home > button {
+  color: black;
+  background-color: azure;
+}
+
+#about {
+  background-color: red;
+  align-items: end;
+}
+
+#events {
+  background-color: aqua;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: start;
+}
