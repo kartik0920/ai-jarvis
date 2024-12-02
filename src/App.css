@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: #27374d;
 }
 
 .navBar > ul {
@@ -7,7 +8,17 @@ body {
   align-items: center;
 }
 
+.nav-logo {
+  margin-left: 0;
+  height: 2.4rem;
+}
+span {
+  align-items: flex-end;
+}
+
 .navBar {
+  height: max-content;
+  color: #27374d !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,4 +53,23 @@ section {
   align-content: center;
   align-items: flex-start;
   justify-content: start;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #ececec !important;
+  height: 50px;
+  width: auto;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 6px 21px;
+  margin: 2px;
+}
+
+a {
+  scroll-behavior: smooth;
 }

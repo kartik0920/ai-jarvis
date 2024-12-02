@@ -4,8 +4,8 @@ export default function Home() {
       <h1>AI JARVIS</h1>
       <hr />
       <div>
-        <button>Past Project</button>
-        <button>Discord</button>
+        <button className="btn">Past Project</button>
+        <button className="btn">Discord</button>
       </div>
     </section>
   );
